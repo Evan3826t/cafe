@@ -1,0 +1,56 @@
+body{
+    background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/dongshan-cafe_04.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: var(--font-family-sans-serif), 'Microsoft JHengHei';
+}
+.carousel-item{
+    height: 700px;
+}
+.carousel-caption{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.object-fit{
+    object-fit: cover;
+    object-position: center;
+}
+
+.coffee>div:first-child {
+    height: 350px;
+}
+
+#footer i{
+    font-size: 24px;
+}
+
+#loading{
+    height: 100vh;
+    position: relative;
+    z-index: 99;
+
+}
+
+#content, #footer{
+    display: none;
+}
+
+@media (max-width: 576px){
+    .carousel-item{
+        height: 300px !important;
+    }
+}
+
+@media ( min-width: 768px){
+    .coffee:nth-child( even)>div:first-child{
+        order: 2;
+    }
+    .coffee:nth-child( even)>div:;ast-child{
+        order: 1;
+        text-align: right;
+    }
+}
