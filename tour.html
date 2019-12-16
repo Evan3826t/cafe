@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/Café.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/dataTables.bootstrap4.min.css">
+    <link rel="shortcut icon" href="./images/favicon-20191209083958255.ico" type="image/x-icon">
+    <!-- Primary Meta Tags -->
+<title>東山Café</title>
+<meta name="title" content="東山Café">
+<meta name="description" content="東山咖啡介紹">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="/">
+<meta property="og:title" content="東山Café | 景點介紹">
+<meta property="og:description" content="東山咖啡景點介紹">
+<meta property="og:image" content="./images/dongshan-cafe_04.jpg">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://metatags.io/">
+<meta property="twitter:title" content="東山Café | 景點介紹">
+<meta property="twitter:description" content="東山咖啡景點介紹">
+<meta property="twitter:image" content="./images/dongshan-cafe_04.jpg">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./images/coffee.png" width="30" height="30" class="d-inline-block" alt="">東山Café
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">首頁<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="./tour.html"><i class="fas fa-map-marked-alt"></i> 景點介紹</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./shop.html"><i class="fas fa-gift"></i> 咖啡介紹</a>
+                </li>
+              </ul>
+
+            </div>
+        </div>
+      </nav>
+      <div class="container-fluid" id="loading">
+        <div class="row h-100">
+          <div class="col-12 align-self-center text-center">
+            <img src="./images/loading.svg" alt="">
+          </div>
+        </div>
+      </div>
+    <div class="container" id="content">
+        <div class="row">
+          <div class="col-12 my-3">
+            <h1 class="text-align text-white">景點介紹</h1>
+            <hr class="bg-white">
+          </div>
+          <div class="col-12 my-3 text-white">
+            <table class="table table-hover table-light" id="tour">
+              <thead class="thead-dark ">
+                <tr>
+                  <th>名稱</th>
+                  <th>地點</th>
+                  <th>電話</th>
+                  <th>介紹</th>
+                </tr>
+              </thead>
+              <tbody >
+                <tr>
+                  <td data-th="名稱">東山老家咖啡</td >
+                  <td data-th="地點">台南市東山區90號 </td>
+                  <td data-th="電話">06-686-1230</td> 
+                  <td data-th="介紹"><button class="btn btn-link" data-img="./images/111.jpg">
+                        <i class="fas fa-eye"></i> 詳細資料
+                      </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td  data-th="名稱">大鋤花間咖啡生態農場</td>
+                  <td  data-th="地點">台南市東山區高原109-17號</td>
+                  <td  data-th="電話">06-686-4350</td>
+                  <td  data-th="介紹"><button class="btn btn-link" data-img="./images/222.jpg">
+                        <i class="fas fa-eye"></i> 詳細資料
+                      </button>
+                  </td>                
+                <tr>
+                  <td  data-th="名稱">瑪哩咖啡</td>
+                  <td  data-th="地點">台南市東山區高原里109之19號</td>
+                  <td  data-th="電話">0935-710-599</td>
+                  <td  data-th="介紹"><button class="btn btn-link" data-img="./images/333.jpg">
+                       <i class="fas fa-eye"></i> 詳細資料
+                      </button>
+                  </td>                
+            </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-primary text-white text-center" id="footer">
+        <div class="row">
+          <div class="col-12">
+              <ul class="nav justify-content-center">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#"><i class="fab fa-facebook-square"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link text-white" href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                </ul>
+                &copy; <script>
+                  document.write(new Date().getFullYear())
+                </script>泰山網頁班
+          </div>
+        </div>
+      </div>
+      <!-- Modal 互動視窗 -->
+      <div id="modal" class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <img src="" alt="" class="w-100">
+                <h6>
+                  <i class="fas fa-map-marker-alt text-success text-success"></i>
+                  <span></span>
+                </h6>
+                <h6>
+                  <i class="fas fa-phone-square-alt text-success text-success"></i>
+                  <span></span>
+                </h6>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/jquery.dataTables.min.js"></script>
+    <script src="./js/dataTables.bootstrap4.min.js"></script>
+    <script>
+      $(window).on("load", function(){
+        $("#loading").fadeOut(2000, function(){
+          $("#content").fadeIn();
+          $("#footer").fadeIn();
+          new WOW().init();
+
+        })
+      })
+
+      // 套用 DataTables
+      $("#tour").DataTable({
+        // 改成中文 要用伺服器開才會正常顯示
+        language: {
+          url: './datatables-chinese.json'
+        },
+
+        // 將詳細資料的排序&搜尋關閉
+        columnDefs: [
+          {
+              targets: 3,
+              orderable: false,
+              searchable: false
+          }
+        ]
+      })
+
+      $("#tour button").on("click",function(){
+        let title = $(this).parents("tr").find("td").eq(0).text();
+        $("#modal .modal-title").text(title);
+        console.log(title);
+
+        let addr = $(this).parents("tr").find("td").eq(1).text();
+        $("#modal .modal-body span").eq(0).text(addr);
+        console.log(addr);
+
+        let tel = $(this).parents("tr").find("td").eq(2).text();
+        $("#modal .modal-body span").eq(1).text(tel);
+        console.log(tel);
+
+        // 把圖片路徑藏在 button 裡面
+        let img = $(this).data("img");
+        console.log(img);
+        $("#modal .modal-body img").attr("src",img);
+
+        $("#modal").modal("show");
+      })
+    </script>
+</body>
+</html>
